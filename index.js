@@ -8,9 +8,7 @@ function declensionHours(hours) {
     }
     switch (hours % 10) {
         case 1: return 'час';  
-        case 2:
-        case 3:
-        case 4: return 'часа'; 
+        case 2: return 'часа'; 
         default: return 'часов'; 
     }
 }
